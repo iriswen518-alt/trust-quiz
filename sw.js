@@ -1,4 +1,4 @@
-const VER = '20261005-130106';
+const VER = '20261005-135418';
 const CACHE = 'tq-' + VER;
 self.addEventListener('install', e => self.skipWaiting());
 self.addEventListener('activate', e => e.waitUntil((async () => {
